@@ -5026,23 +5026,47 @@ a img {
     }
 }
 
+#experiences {
+	position: relative;
+    width: 100%;
+    background-color: whitesmoke;
+    box-shadow: inset 0px 0px 20px 10px rgb(0 0 0 / 15%);
+}
+
+/* #education {
+	position: relative;
+    width: 100%;
+    background-color: whitesmoke;
+    box-shadow: inset 0px 0px 20px 10px rgb(0 0 0 / 15%);
+} */
+
 #education {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 90%;
-    max-width: 960px;
+    width: 100%;
+    /*max-width: 960px;*/
     margin: 0 auto
 }
 
 @media only screen and (min-width:550px) {
     #education {
-        width: 80%
+        width: 100%
     }
 }
 
+.content-list {
+	text-align: left;
+	list-style-type:square
+}
+
+.content-list li {
+	list-style:red
+}
+
 .user-projects {
-    margin: 20px auto
+    margin: 20px auto;
+	max-width: 960px
 }
 
 .user-projects img {
@@ -5080,6 +5104,10 @@ a img {
         float: right;
         width: 48%
     }
+	
+	.content-right-exp {
+		width: 90%
+	}
 
     .images-right img {
         float: right
@@ -5092,6 +5120,16 @@ a img {
 
     .images-left img {
         float: left
+    }
+	
+	.images-left-logo {
+        float: left;
+        width: 20%
+    }
+
+    .images-left-logo img {
+        float: left;
+		width: 60%
     }
 }
 
@@ -5142,3 +5180,4 @@ a img {
     margin: 0;
     color: #fff
 }
+
