@@ -5108,6 +5108,10 @@ a img {
 	.content-right-exp {
 		width: 90%
 	}
+	
+	.content-right-exp h3 h4 {
+		text-align: center
+	}
 
     .images-right img {
         float: right
