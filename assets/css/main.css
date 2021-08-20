@@ -5159,6 +5159,12 @@ a img {
     transition: color .3s ease-out, background-color .3s ease-out, border-color .3s ease-out
 }
 
+.simple_link {
+	cursor:pointer;
+	text-decoration: none;
+	color:green
+}
+
 .project-link:active,
 .project-link:hover {
 	/* TU DORTMUND COLOR #25d400 */
