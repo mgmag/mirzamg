@@ -5146,7 +5146,7 @@ a img {
 
 .project-link {
     display: inline-block;
-    margin: 10px 0;
+    margin: 10px 10px 50px 10px;
     padding: 5px;
     color: #1488CC;
     background-color: transparent;
@@ -5156,13 +5156,17 @@ a img {
     outline: 0;
     text-decoration: none;
     cursor: pointer;
-    transition: color .3s ease-out, background-color .3s ease-out, border-color .3s ease-out
+    transition: color .9s ease-out, background-color .9s ease-out, border-color .9s ease-out
 }
 
 .simple_link {
 	cursor:pointer;
 	text-decoration: none;
 	color:green
+}
+
+.simple_link:hover{
+	text-decoration: underline
 }
 
 .project-link:active,
@@ -5172,7 +5176,7 @@ a img {
     border-color: #329031;
 	/*background: linear-gradient(to right, #329031, #1488CC);*/
     color: #fff;
-    transition: color .3s ease-in, background-color .3s ease-in, border-color .3s ease-in
+    transition: color .5s ease-in, background-color .5s ease-in, border-color .5s ease-in
 }
 
 .footer {
