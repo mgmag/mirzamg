@@ -5012,7 +5012,8 @@ a img {
 }
 
 .user-details p {
-	text-align: justify
+	text-align: justify !important;
+	margin: 25px auto
 }
 
 
@@ -5034,10 +5035,20 @@ a img {
 }
 
 #experiences {
-	position: relative;
+	position:relative;
+	display:flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 100%;
-    background-color: whitesmoke;
-    box-shadow: inset 0px 0px 20px 10px rgb(0 0 0 / 15%);
+    margin: 0 auto;
+	box-shadow: inset 0px 0px 20px 10px rgb(0 0 0 / 15%);
+	background-color: whitesmoke;
+}
+
+@media only screen and (min-width:550px) {
+    #experiences {
+        width: 100%
+    }
 }
 
 #education {
@@ -5149,6 +5160,7 @@ a img {
         float: left;
 		width: 60%
     }
+
 }
 
 .project-link {
