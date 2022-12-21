@@ -5008,14 +5008,14 @@ a img {
 
 .user-details {
     text-align: center;
-    margin: 5px auto
+    margin: 5px auto;
+
 }
 
 .user-details p {
-	text-align: justify !important;
-	margin: 25px auto
+    text-align: justify !important;
+    margin: 5px
 }
-
 
 
 
@@ -5035,14 +5035,14 @@ a img {
 }
 
 #experiences {
-	position:relative;
-	display:flex;
+    /* position:relative; */
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
-	box-shadow: inset 0px 0px 20px 10px rgb(0 0 0 / 15%);
-	background-color: whitesmoke;
+    /* box-shadow: inset 0px 0px 20px 10px rgb(0 0 0 / 15%); */
+    /* background-color: whitesmoke; */
 }
 
 @media only screen and (min-width:550px) {
@@ -5052,10 +5052,10 @@ a img {
 }
 
 #education {
-	position: relative;
-    width: 100%;
+    position: relative;
+    /* width: 100%;
     background-color: whitesmoke;
-    box-shadow: inset 0px 0px 20px 10px rgb(0 0 0 / 15%);
+    box-shadow: inset 0px 0px 20px 10px rgb(0 0 0 / 15%); */
 }
 
 /* #education {
@@ -5069,9 +5069,10 @@ a img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 100%;
-    /*max-width: 960px;*/
-    margin: 0 auto
+    /* width: 100%; */
+    max-width: 960px;
+    margin: 0 auto;
+    /* align-content: center */
 }
 
 @media only screen and (min-width:550px) {
@@ -5081,17 +5082,19 @@ a img {
 }
 
 .content-list {
-	text-align: left;
-	list-style:red
+    text-align: left;
+    list-style: red
 }
 
 .content-list li {
-	list-style-type:square
+    list-style-type: square
 }
 
 .user-projects {
-    margin: 20px auto;
-	max-width: 960px
+    margin: 20px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto
 }
 
 .user-projects img {
@@ -5115,7 +5118,7 @@ a img {
 
 @media only screen and (min-width:550px) {
     .contents {
-        margin-left: 0;
+        margin: 10px;
         width: 48%
     }
 
@@ -5124,19 +5127,18 @@ a img {
         margin-top: -5%
     }
 
-    .contents-right,
     .images-right {
         float: right;
         width: 48%
     }
-	
-	.content-right-exp {
-		width: 90%
-	}
-	
-	.content-right-exp h3 h4 img {
-		text-align: center
-	}
+
+    .content-right-exp {
+        width: 90%
+    }
+
+    .content-right-exp h3 h4 img {
+        text-align: center
+    }
 
     .images-right img {
         float: right
@@ -5150,15 +5152,15 @@ a img {
     .images-left img {
         float: left
     }
-	
-	.images-left-logo {
+
+    .images-left-logo {
         float: left;
         width: 20%
     }
 
     .images-left-logo img {
         float: left;
-		width: 60%
+        width: 60%
     }
 
 }
@@ -5179,21 +5181,21 @@ a img {
 }
 
 .simple_link {
-	cursor:pointer;
-	text-decoration: none;
-	color:green
+    cursor: pointer;
+    text-decoration: none;
+    color: green
 }
 
-.simple_link:hover{
-	text-decoration: underline
+.simple_link:hover {
+    text-decoration: underline
 }
 
 .project-link:active,
 .project-link:hover {
-	/* TU DORTMUND COLOR #25d400 */
+    /* TU DORTMUND COLOR #25d400 */
     background-color: #329031;
     border-color: #329031;
-	/*background: linear-gradient(to right, #329031, #1488CC);*/
+    /*background: linear-gradient(to right, #329031, #1488CC);*/
     color: #fff;
     transition: color .5s ease-in, background-color .5s ease-in, border-color .5s ease-in
 }
@@ -5220,4 +5222,3 @@ a img {
     margin: 0;
     color: #fff
 }
-
