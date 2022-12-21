@@ -5078,6 +5078,7 @@ a img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    max-width: 960px;
     width: 90%;
     margin: 0 auto
 }
@@ -5136,6 +5137,10 @@ a img {
     .images-right {
         float: right;
         width: 48%
+    }
+
+    .contents-right h3 p {
+        text-align: center
     }
 
     .content-right-exp {
