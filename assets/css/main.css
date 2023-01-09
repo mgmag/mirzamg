@@ -5194,7 +5194,8 @@ a img {
 .simple_link {
     cursor: pointer;
     text-decoration: none;
-    color: green
+    color: green;
+    margin: 10px
 }
 
 .simple_link:hover {
