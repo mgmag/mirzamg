@@ -5061,6 +5061,10 @@ a img {
     margin: 25px auto
 }
 
+.doing {
+    text-align: left;
+    margin: 5px auto
+}
 
 
 
@@ -5078,6 +5082,32 @@ a img {
         width: 80%
     }
 }
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    width: 60%
+}
+
+
+#doings {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+@media only screen and (min-width:550px) {
+    #doings {
+        width: 100%
+    }
+}
+
 
 #experiences {
     position: relative;
